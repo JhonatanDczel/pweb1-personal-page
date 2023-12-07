@@ -1,17 +1,21 @@
 @media screen and (max-width: 850px){
   html {
-    font-size: 14px;
   }
-  nav {
 
+  nav {
     justify-content: space-evenly;
+  }
+
+}
+@media screen and (max-width: 460px){
+  html {
+    font-size: 14px;
   }
   nav > .links> button {
     display: none;
   }
   main > .presentation-container > img{
     height: 250px;
-    margin-bottom: 30px;
   }
   .presentation-container {
   }

@@ -73,13 +73,12 @@ main{
   .presentation-container{
     height: calc(100svh - 100px - 2.5vw);
     display: flex;
-    align-items: center;
-    align-content: center;
+    align-items: flex-start;
+    align-content: space-evenly;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
     img {
       height: 300px;
-      margin-bottom: 4rem;
     }
 
     .presentation {

@@ -58,13 +58,12 @@ main {
   main .presentation-container {
     height: calc(100svh - 100px - 2.5vw);
     display: flex;
-    align-items: center;
-    align-content: center;
+    align-items: flex-start;
+    align-content: space-evenly;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse; }
     main .presentation-container img {
-      height: 300px;
-      margin-bottom: 4rem; }
+      height: 300px; }
     main .presentation-container .presentation {
       max-width: 600px;
       min-height: 300px; }
