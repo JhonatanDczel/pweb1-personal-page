@@ -1,3 +1,6 @@
+$ancho: 90vw;
+$color-bg: #fff6;
+
 body {
   min-height: 100svh;
   background: url(../img/bg.jpg) no-repeat;
@@ -6,18 +9,23 @@ body {
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
-  padding: 50px; }
+  padding: 50px;
+}
 
-nav {
-  background-color: #fff6;
+nav{
+  background-color: $color-bg;
   border-radius: 10px 10px 0 0;
   position: sticky;
   height: 100px;
-  border: 1px solid red; }
+  border: 1px solid red;
+}
 
-main {
-  background-color: #fff6; }
-  main .presentation-container {
-    height: calc(100svh - 150px); }
+main{
+  background-color: $color-bg;
 
-/*# sourceMappingURL=style.css.map */
+  .presentation-container{
+    height: calc(100svh - 150px);
+  }
+
+}
+
