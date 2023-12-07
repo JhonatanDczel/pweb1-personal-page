@@ -3,9 +3,13 @@
     font-size: 14px;
   }
   nav {
+
     justify-content: space-evenly;
   }
   nav > .links> button {
     display: none;
+  }
+  main > .presentation-container > img{
+    height: 250px;
   }
 }
