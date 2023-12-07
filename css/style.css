@@ -29,11 +29,11 @@ nav {
   border-radius: 10px 10px 0 0;
   position: sticky;
   top: 0;
-  height: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  padding: min(3vw, 50px) 9vw; }
   nav .logo {
     font-size: 32px;
     font-weight: 900; }
@@ -41,7 +41,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 2rem; }
+    gap: 2vw; }
     nav .links ul {
       list-style: none;
       display: flex;
