@@ -35,10 +35,11 @@ nav {
   align-items: center;
   padding: min(3vw, 50px) 9vw; }
   nav .logo {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 900; }
   nav .links {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     gap: 2vw; }
