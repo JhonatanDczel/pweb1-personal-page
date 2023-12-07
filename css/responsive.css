@@ -1,0 +1,8 @@
+@media screen and (max-width: 850px){
+  nav {
+    justify-content: space-evenly;
+  }
+  nav > .links> button {
+    display: none;
+  }
+}
