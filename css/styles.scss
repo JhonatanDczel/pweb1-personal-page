@@ -21,6 +21,15 @@ nav, main{
   padding: 0 9vw;
 }
 
+button{
+  border: none;
+  font-size: 1rem;
+  font-weight: 550;
+  padding: .7rem 1.2rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
 nav{
   background-color: $color-bg;
   backdrop-filter: blur(4px);
@@ -32,7 +41,6 @@ nav{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 
   .logo {
     font-size: 32px;
@@ -54,25 +62,44 @@ nav{
         font-weight: 700;
       }
     }
-    button{
-      border: none;
-      font-size: 1rem;
-      font-weight: 800;
-      padding: .5rem 1rem;
-      border-radius: 1rem;
-      background-color: #fff;
-    }
   }
 }
 
 main{
   background-color: $color-bg;
   .presentation-container{
-    height: calc(100svh - 150px);
+    height: calc(100svh - 100px - 2.5vw);
     display: flex;
-    border: 1px solid red;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
     img {
       height: 300px;
+      margin-bottom: 4rem;
+    }
+
+    .presentation {
+      max-width: 600px;
+      min-height: 300px;
+      h1 {
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+      h2 {
+        font-size: 2.1rem;
+        font-weight: 900;
+      }
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+      button{
+        background-color: #000;
+        a {
+          color: #fff;
+        }
+      }
     }
   }
 

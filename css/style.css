@@ -15,6 +15,14 @@ body {
 nav, main {
   padding: 0 9vw; }
 
+button {
+  border: none;
+  font-size: 1rem;
+  font-weight: 550;
+  padding: .7rem 1.2rem;
+  border-radius: 1rem;
+  background-color: #fff; }
+
 nav {
   background-color: #fff6;
   backdrop-filter: blur(4px);
@@ -25,8 +33,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  border: 1px solid red; }
+  align-items: center; }
   nav .logo {
     font-size: 32px;
     font-weight: 900; }
@@ -42,21 +49,34 @@ nav {
       nav .links ul a {
         color: #000;
         font-weight: 700; }
-    nav .links button {
-      border: none;
-      font-size: 1rem;
-      font-weight: 800;
-      padding: .5rem 1rem;
-      border-radius: 1rem;
-      background-color: #fff; }
 
 main {
   background-color: #fff6; }
   main .presentation-container {
-    height: calc(100svh - 150px);
+    height: calc(100svh - 100px - 2.5vw);
     display: flex;
-    border: 1px solid red; }
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse; }
     main .presentation-container img {
-      height: 300px; }
+      height: 300px;
+      margin-bottom: 4rem; }
+    main .presentation-container .presentation {
+      max-width: 600px;
+      min-height: 300px; }
+      main .presentation-container .presentation h1 {
+        font-size: 1.6rem;
+        font-weight: 500; }
+      main .presentation-container .presentation h2 {
+        font-size: 2.1rem;
+        font-weight: 900; }
+      main .presentation-container .presentation p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem; }
+      main .presentation-container .presentation button {
+        background-color: #000; }
+        main .presentation-container .presentation button a {
+          color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
