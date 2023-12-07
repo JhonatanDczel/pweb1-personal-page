@@ -45,7 +45,9 @@ nav {
     nav .links ul {
       list-style: none;
       display: flex;
-      gap: 3rem; }
+      gap: 3vw;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
       nav .links ul a {
         color: #000;
         font-weight: 700; }
