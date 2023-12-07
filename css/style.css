@@ -9,11 +9,11 @@ body {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  padding: 50px 100px;
+  padding: 2.5vw 6vw;
   background-size: cover; }
 
 nav, main {
-  padding: 0 200px; }
+  padding: 0 9vw; }
 
 nav {
   background-color: #fff6;
@@ -23,6 +23,7 @@ nav {
   top: 0;
   height: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   border: 1px solid red; }
@@ -31,14 +32,23 @@ nav {
     font-weight: 900; }
   nav .links {
     display: flex;
-    gap: 16px; }
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem; }
     nav .links ul {
       list-style: none;
       display: flex;
-      gap: 16px; }
+      gap: 3rem; }
       nav .links ul a {
         color: #000;
-        font-weight: 900; }
+        font-weight: 700; }
+    nav .links button {
+      border: none;
+      font-size: 1rem;
+      font-weight: 800;
+      padding: .5rem 1rem;
+      border-radius: 1rem;
+      background-color: #fff; }
 
 main {
   background-color: #fff6; }
