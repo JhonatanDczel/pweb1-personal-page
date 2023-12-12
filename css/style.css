@@ -78,6 +78,9 @@ nav {
       cursor: pointer;
       transform: scale(1.03); }
 
+p {
+  text-align: justify; }
+
 main {
   flex: 1;
   display: flex;
@@ -87,7 +90,7 @@ main {
   main .presentation-container {
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     align-content: space-evenly;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse; }
