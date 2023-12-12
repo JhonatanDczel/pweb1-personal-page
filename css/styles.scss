@@ -72,6 +72,12 @@ nav{
         font-weight: 700;
       }
     }
+    button{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: .5rem .7rem;
+    }
   }
 }
 

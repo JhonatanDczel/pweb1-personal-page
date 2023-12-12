@@ -58,6 +58,11 @@ nav {
       nav .links ul a {
         color: #000;
         font-weight: 700; }
+    nav .links button {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: .5rem .7rem; }
 
 main {
   flex: 1;
