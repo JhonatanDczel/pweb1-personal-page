@@ -2,18 +2,26 @@
 :root {
   font-family: "Manrope", sans-serif; }
 
+html {
+  min-height: 100svh; }
+
 body {
   min-height: 100svh;
   background: url(../img/bg.jpg) no-repeat;
-  flex-direction: column;
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  padding: 2.5vw 6vw;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 6vw;
   background-size: cover; }
 
 nav, main {
   padding: 0 9vw; }
+
+.max-container {
+  min-height: calc(100svh - 50px);
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
 
 button {
   border: none;
@@ -27,13 +35,11 @@ nav {
   background-color: #fff6;
   backdrop-filter: blur(4px);
   border-radius: 10px 10px 0 0;
-  position: sticky;
-  top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: min(3vw, 40px) 9vw; }
+  padding: min(3vw, 30px) 9vw; }
   nav .logo {
     font-size: 2rem;
     font-weight: 900; }
@@ -54,9 +60,13 @@ nav {
         font-weight: 700; }
 
 main {
-  background-color: #fff6; }
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-color: #fff6;
+  border-radius: 0 0 10px 10px; }
   main .presentation-container {
-    height: calc(100svh - 100px - 2.5vw);
+    width: 100%;
     display: flex;
     align-items: flex-start;
     align-content: space-evenly;
