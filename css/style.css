@@ -58,11 +58,22 @@ nav {
       nav .links ul a {
         color: #000;
         font-weight: 700; }
-    nav .links button {
+      nav .links ul a:hover {
+        text-decoration: underline;
+        color: #666;
+        transform: scale(1.9); }
+    nav .links a[id="github"] {
+      color: #000;
+      font-weight: 700;
       display: flex;
+      background-color: #fff;
+      border-radius: 50px;
       align-items: center;
       gap: 8px;
       padding: .5rem .7rem; }
+    nav .links a[id="github"]:hover {
+      cursor: pointer;
+      transform: scale(1.03); }
 
 main {
   flex: 1;

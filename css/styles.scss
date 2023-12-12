@@ -71,12 +71,26 @@ nav{
         color: #000;
         font-weight: 700;
       }
+      a:hover {
+        text-decoration: underline;
+        color: #666;
+        transform: scale(1.9);
+      }
     }
-    button{
+    a[id="github"]{
+      color: #000;
+      font-weight: 700;
       display: flex;
+      background-color: #fff;
+      border-radius: 50px;
       align-items: center;
       gap: 8px;
       padding: .5rem .7rem;
+    }
+
+    a[id="github"]:hover{
+      cursor: pointer;
+      transform: scale(1.03);
     }
   }
 }
