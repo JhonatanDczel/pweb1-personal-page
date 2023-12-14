@@ -22,6 +22,7 @@ function createCard(card) {
 
   var linkGithub = document.createElement("a");
   linkGithub.href = link;
+  linkGithub.target = '_blank';
   var githubLogo = document.createElement("img");
   githubLogo.src = "./img/github.svg";
   githubLogo.alt = "logo github";

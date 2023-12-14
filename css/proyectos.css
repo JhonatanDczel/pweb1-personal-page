@@ -15,7 +15,7 @@
 }
 
 .presentation-container .presentation > img {
-  height: 300px; !important
+  height: 250px; !important
 }
 
 .pr {
@@ -26,9 +26,9 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); /* Ajusta los valores mínimos y máximos según tus necesidades */
-  gap: 3rem;
   align-items: start;
   justify-items: center;
+  grid-row-gap: 3rem;
 }
 
 .project-card{
