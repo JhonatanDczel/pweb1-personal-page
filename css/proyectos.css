@@ -1,0 +1,46 @@
+.presentation-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.presentation {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap-reverse;
+  justify-items: center;
+}
+
+.presentation-container .presentation > img {
+  height: 250px; !important
+}
+
+.pr {
+  max-width: 600px;
+}
+
+.projects-container{
+
+}
+
+.project-card{
+
+}
+.projects-container .project-card .project-image > img {
+  width: auto;
+  height: 100%;
+  border: 1px solid red;
+}
+
+.project-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+}
