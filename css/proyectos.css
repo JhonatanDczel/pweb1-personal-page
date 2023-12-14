@@ -28,7 +28,8 @@
   grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); /* Ajusta los valores mínimos y máximos según tus necesidades */
   align-items: start;
   justify-items: center;
-  grid-row-gap: 3rem;
+  grid-row-gap: 4rem;
+  grid-column-gap: 2rem;
 }
 
 .project-card{
