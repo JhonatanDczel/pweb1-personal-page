@@ -36,7 +36,9 @@ button {
 
 nav {
   background-color: #fff6;
-  backdrop-filter: blur(4px);
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(9px);
   border-radius: 10px 10px 0 0;
   display: flex;
   flex-wrap: wrap;
