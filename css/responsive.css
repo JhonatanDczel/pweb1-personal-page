@@ -20,3 +20,18 @@
   .presentation-container {
   }
 }
+
+@media screen and (max-width: 610px){
+  .project-card{
+    width: 70vw;
+  }
+  .project-image{
+    height: calc(.72 * 70vw);
+  }
+
+  .projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
