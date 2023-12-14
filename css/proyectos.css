@@ -27,7 +27,9 @@
 }
 
 .project-card{
-
+  width: 430px;
+  box-shadow: 0 0 10px #000c;
+  border-radius: 20px;
 }
 .projects-container .project-card .project-image > img {
   width: 100%;
@@ -41,7 +43,6 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  width: 430px;
   height: 300px;
 }
 
@@ -50,9 +51,10 @@
   display: grid;
   border-radius: 0 0 20px 20px;
   grid-template-columns: 1fr auto;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
   grid-template-areas: "title github" "description description";
-  padding: 10px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .project-card-info > h3 {
