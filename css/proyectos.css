@@ -30,17 +30,42 @@
 
 }
 .projects-container .project-card .project-image > img {
-  width: auto;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
   height: 100%;
-  border: 1px solid red;
+  object-fit: cover;
 }
 
 .project-image{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
   overflow: hidden;
-  width: 300px;
-  height: 200px;
+  width: 430px;
+  height: 300px;
+}
+
+.project-card-info{
+  background-color: #fff7;
+  display: grid;
+  border-radius: 0 0 20px 20px;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "title github" "description description";
+  padding: 10px;
+}
+
+.project-card-info > h3 {
+  grid-area: title;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.project-card .project-card-info > img {
+  grid-area: github;
+  height: 30px;
+}
+
+.project-description{
+  grid-area: description;
 }
