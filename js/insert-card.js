@@ -14,15 +14,20 @@ function createCard(name, link, descriptionProject, img) {
   var title = document.createElement("h3");
   title.classList.add("project-title");
   title.textContent = name;
+
+  var linkGithub = document.createElement("a");
+  linkGithub.href = link;
   var githubLogo = document.createElement("img");
   githubLogo.src = "./img/github.svg";
   githubLogo.alt = "logo github";
+  linkGithub.appendChild(githubLogo);
+
   var description = document.createElement("p");
   description.classList.add("project-description");
   description.textContent = descriptionProject;
 
   projectInfo.appendChild(title);
-  projectInfo.appendChild(githubLogo);
+  projectInfo.appendChild(linkGithub);
   projectInfo.appendChild(description);
 
   newCard.appendChild(projectImage);

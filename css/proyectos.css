@@ -1,7 +1,7 @@
 .presentation-container{
   display: flex;
   flex-direction: column;
-
+  gap: 3rem;
 }
 
 .presentation {
@@ -15,7 +15,7 @@
 }
 
 .presentation-container .presentation > img {
-  height: 250px; !important
+  height: 300px; !important
 }
 
 .pr {
@@ -23,12 +23,17 @@
 }
 
 .projects-container{
-
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); /* Ajusta los valores mínimos y máximos según tus necesidades */
+  gap: 3rem;
+  align-items: start;
+  justify-items: center;
 }
 
 .project-card{
   width: 430px;
-  box-shadow: 0 0 10px #000c;
+  box-shadow: 0 0 15px #0003;
   border-radius: 20px;
 }
 .projects-container .project-card .project-image > img {
@@ -63,7 +68,7 @@
   font-size: 1.5rem;
 }
 
-.project-card .project-card-info > img {
+.project-card .project-card-info > a > img {
   grid-area: github;
   height: 30px;
 }
