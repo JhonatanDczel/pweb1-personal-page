@@ -70,8 +70,34 @@ const calculator = {
 };
 
 
+const episunsa = {
+  name: "Leo The Turtle",
+  link: "https://github.com/JhonatanDczel/IS-fundamentos-programacion-1/tree/main/LeoTheTurtle",
+  img: "episunsa",
+  description: "Graficadora de imágenes usando Turtle en Java."
+};
+
+
+const rps = {
+  name: "Rock Paper Scissors Game",
+  link: "https://github.com/JhonatanDczel/rock-paper-scissors",
+  img: "rps",
+  description: "Juego de Piedra Papel o Tijera, hecho con JavaScript HTML y CSS."
+};
+
+const signup = {
+  name: "Signup Form",
+  link: "https://github.com/JhonatanDczel/sign-up-form",
+  img: "sign-up",
+  description: "Pagina de Inicio de Sesión, hecha para practicar CSS y validacion de datos con JavaScript usando Expresiones Regulares"
+};
+
+
 createCard(calculator);
 createCard(sorting);
+createCard(episunsa);
+createCard(rps);
+createCard(signup);
 createCard(library);
 createCard(admin);
 
