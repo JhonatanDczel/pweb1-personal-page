@@ -9,6 +9,7 @@ function createCard(card) {
   var projectImage = document.createElement("div");
   projectImage.classList.add("project-image");
   var image = document.createElement("img");
+  image.id = img;
   image.src = `./img/projects/${img}.png`;
   image.alt = "imagen nuevo proyecto";
   projectImage.appendChild(image);
@@ -92,12 +93,21 @@ const signup = {
   description: "Pagina de Inicio de Sesión, hecha para practicar CSS y validacion de datos con JavaScript usando Expresiones Regulares"
 };
 
+const paz = {
+  name: "Salve Paz",
+  link: "https://github.com/JhonatanDczel/salve-paz",
+  img: "paz",
+  description: "Nació como un proyecto de colaboración entre compañeros del primer semestre, en muestra de gratitud a las enseñanzas impartidas por el profesor Paz."
+};
 
 createCard(calculator);
 createCard(sorting);
 createCard(episunsa);
 createCard(rps);
+createCard(paz);
 createCard(signup);
 createCard(library);
 createCard(admin);
+
+document.getElementById("paz").src = "./img/projects/paz.gif";
 
